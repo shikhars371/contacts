@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script type="text/javascript" src="/javascripts/frontend.js"></script>
         <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script type="text/javascript" src="/javascripts/frontendtwo.js"></script>
     </head>
 <body>
 <h1>{{title}}</h1>
@@ -16,11 +16,14 @@
 
 <button type="submit" name="submit" onclick="submitformdata()">Submit</button>
 
+<button type="submit" name="logout" onclick="logout()">Logout</button>
+
+
 <table style="width:100%" id="mongotable" >
   <tr>
     <th>Name</th>
     <th>Email</th> 
-    <th>Number</th>
+    <th>Number1</th>
   </tr>
   
 </table>
